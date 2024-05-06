@@ -1,10 +1,17 @@
 # umba_challenge_deux
-Building the application that allows user makes transactions via the process
-1. User Ip x
-6. Testing x
-2. Search query on transactions 
-3. Documentation x
-4. Refining & Refactoring x
-5. OOP x
+Building the application that allows users to credit and debit transactions via the process.
+
+Installation types 
+1. Using Virtual Environments
+  - cd umba_challenge_deux
+  - python3 -m venv .venv
+  - . .venv/bin/activate
+  - pip install -r requirements.txt
+    
+2. Build Docker containers to access the application
+  - docker build -t my-flask-app .
+  - docker run -p 5000:5000 my-flask-app
+
+
 
 
